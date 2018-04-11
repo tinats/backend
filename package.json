@@ -1,0 +1,22 @@
+{
+  "name": "Tinats-backend",
+  "main": "lib/index.js",
+  "license": "GNUv3",
+  "scripts": {
+    "babel": "node_modules/.bin/babel src --out-dir lib",
+    "start": "node lib/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "graphql-request": "^1.5.1",
+    "helmet": "^3.12.0",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
