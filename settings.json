@@ -1,0 +1,9 @@
+{
+    "DEV": {
+        "DB_URL": "localhost"
+    },
+
+    "PROD": {
+        "DB_URL": "db"
+    }
+}
