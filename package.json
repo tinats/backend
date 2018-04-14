@@ -1,10 +1,10 @@
 {
   "name": "TinatsBackend",
-  "main": "lib/index.js",
+  "main": "index.js",
   "license": "GNUv3",
   "scripts": {
     "babel": "node_modules/.bin/babel src --out-dir lib",
-    "start": "node lib/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
